@@ -1,0 +1,11 @@
+truncate table xlog;
+truncate table load_carepack;
+truncate table load_model;
+delete from devices_carepacks;
+commit;
+delete from carepacks;
+commit;
+delete from carepack_categories;
+commit;
+delete from devices;
+commit;

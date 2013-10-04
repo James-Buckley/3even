@@ -41,7 +41,7 @@ class Site1Spider(CrawlSpider):
 
 
     name = 'hp1'
-    PAGE_RANGE=xrange(1,243) # DETERMNINES HOW MANY PRODUCT PAGES TO VISIT
+    PAGE_RANGE=xrange(180,243) # DETERMNINES HOW MANY PRODUCT PAGES TO VISIT
 
     log.msg("Start Spider: %s" % name, level=log.INFO)
 
@@ -102,14 +102,16 @@ class Site1Spider(CrawlSpider):
 # ADD NEW ITEM STEP 1.  add css select below
     
         cppriceamt_sel   =  '//div[@class="price"]/span[2]/strong/text()'
-        cptitle2text_sel =  '//td[@class="cnet_textparagraph"]/text()'
+        cptitle2text_sel =  '//table/tr/td[@class="cnet_textparagraph"]/text()'
         cppagetitle_sel  =  '//title/text()' 
+
         cpdescr_html_sel =  '//*[@id="overviewContent"]'
         cpspecs_html_sel =  '//*[@id="specsContent"]'
         cpmodel_list_sel =  '//div[@id="overviewContent"]//span[@class="FlyoutMenuProduct"]'
-
-       # set value in case note scraped
-       # NOTE sute all models have specs and descr 
+        cptitle1text_sel ='//span[@class="longdesc prodPageTitle"]/text()'
+        cpsku_sel='//div[contains(@class,"mfgPartNo")]/text()'
+        cpsubcattext_sel='//div[4]/div[3]/span[@class="bread_prodName"]/a[@id="A1"]/text()' 
+        # NOTE sute all models have specs and descr 
         cpdescr_html = "ERROR NONE"
         cpspecs_html = "ERROR NONE"
                
@@ -130,14 +132,14 @@ class Site1Spider(CrawlSpider):
         item['srcurl']= response.request.headers.get('Referer', None)
       
         #item['srcurl']= response.request.headers.get('Referer', None)
-        item["cpsku"] = prodInfo[2].strip().replace("HP: ","").strip()
+        item["cpsku"] =hxs.select(cpsku_sel).extract()[0].replace("MFG #","").strip()
 
         
         item["cppriceamt"]= hxs.select(cppriceamt_sel).extract()[0].strip().replace('$','')
         item["cpurl"] = response.url
         # parse from title (sub cat, titel
-        item["cpsubcattext"] =  prodInfo[1].strip()
-        item["cptitletext"] = prodInfo[0].strip()
+        item["cpsubcattext"] =hxs.select(cpsubcattext_sel).extract()[0].strip() # prodInfo[1].strip()
+        item["cptitletext"] =hxs.select(cptitle1text_sel).extract()[0].strip() #prodInfo[0].strip()
         item["cptitle2text"] =hxs.select(cptitle2text_sel).extract()[0].strip()
 
         # html raw convert special char to html numeric codes

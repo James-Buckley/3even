@@ -156,7 +156,7 @@ class MySQL1StorePipeline(object):
 
 
      
-            self.cursor.execute("""insert into carepacks (SKU, Title1, Title2, Price, Raw1,  Raw2, fkCategory) select cpsku , cptitletext, cptitle2text, cppriceamt, cpdescr_html, cpspecs_html, cat.pk From load_carepack join carepack_categories cat on  cpsubcattext = cat.RawCategory where cpsku  not in (select SKU from carepacks) and loadFlag=%s """, ('N',) )
+            self.cursor.execute("""insert into carepacks (SKU, Title1, Title2, Price, Raw1,  Raw2, Link, fkCategory) select cpsku , cptitletext, cptitle2text, cppriceamt, cpdescr_html, cpspecs_html, cpurl, cat.pk From load_carepack join carepack_categories cat on  cpsubcattext = cat.RawCategory where cpsku  not in (select SKU from carepacks) and loadFlag=%s """, ('N',) )
 
 
             self.cursor.execute("""insert into devices (prodID, CatID, SubCatID, deviceName, Link) select distinct mprodid, mcatid, msubcatid, mdescr, murl from load_model where loadFlag = %s  and mprodid  not in (select prodID from devices)""", ('N',) ) 
@@ -169,8 +169,15 @@ class MySQL1StorePipeline(object):
             self.cursor.execute("""update load_model set loadFlag =%s where loadFlag = %s""", ('L','N') )
             self.cursor.execute("""update load_carepack set loadFlag =%s where loadFlag = %s""", ('L','N') )   
          
+            self.conn.commit()
 
-            except MySQLdb.Error, e:
+
+            #self.cursor.execute( """Update carepacks set title2 = %s where length(title2) >=60""",('Empty',) )
+
+            self.conn.commit()
+
+
+        except MySQLdb.Error, e:
             msg="Error %d: %s" % (e.args[0], e.args[1])
             log.msg( msg, level=log.ERROR)
             self.conn.commit() 

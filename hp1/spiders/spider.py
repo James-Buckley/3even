@@ -41,7 +41,10 @@ class Site1Spider(CrawlSpider):
 
 
     name = 'hp1'
-    PAGE_RANGE=xrange(180,243) # DETERMNINES HOW MANY PRODUCT PAGES TO VISIT
+    # NOTE PAGE RANGE  Inclusive of start, NON inclusive of end
+    # 1,5  read pages 1 to 4 (i could add 1 to end  but wanted keep native python
+    # rane behavior
+    PAGE_RANGE=xrange(1,244) # DETERMNINES HOW MANY PRODUCT PAGES TO VISIT
 
     log.msg("Start Spider: %s" % name, level=log.INFO)
 
@@ -110,10 +113,8 @@ class Site1Spider(CrawlSpider):
         cpmodel_list_sel =  '//div[@id="overviewContent"]//span[@class="FlyoutMenuProduct"]'
         cptitle1text_sel ='//span[@class="longdesc prodPageTitle"]/text()'
         cpsku_sel='//div[contains(@class,"mfgPartNo")]/text()'
-        cpsubcattext_sel='//div[4]/div[3]/span[@class="bread_prodName"]/a[@id="A1"]/text()' 
+        cpsubcattext_sel='//div[@class="defaultLink visibleTrue item3"]/span[@class="bread_prodName"]/a[@id="A1"]/text()' 
         # NOTE sute all models have specs and descr 
-        cpdescr_html = "ERROR NONE"
-        cpspecs_html = "ERROR NONE"
                
  
         
@@ -123,7 +124,7 @@ class Site1Spider(CrawlSpider):
 # python twisted lib send this array auto. to the pipeline
 
 
-        # DEVICE INFO0
+        # DEVICE INFO
         # NOTE: page (anchor), model and sud cat is selected from the page 
         # title.  The javascript creates this element for those 3 valuse
         # sub cat text live nowhere else in the html except the title
@@ -140,7 +141,15 @@ class Site1Spider(CrawlSpider):
         # parse from title (sub cat, titel
         item["cpsubcattext"] =hxs.select(cpsubcattext_sel).extract()[0].strip() # prodInfo[1].strip()
         item["cptitletext"] =hxs.select(cptitle1text_sel).extract()[0].strip() #prodInfo[0].strip()
-        item["cptitle2text"] =hxs.select(cptitle2text_sel).extract()[0].strip()
+        #Short title (title2) handle if nto present or if there is market text in its place, code can be shoretened but listed to clearly show logic
+       # if short title is not there or market info is in its place copy off info and set short title to not present, **** the market info (text1) does nto get moved to live table, stored in load_carepack for ref.  Also any info in that table is also in the html in Raw1 so no info is lost 
+        tmp_cptitle2text=hxs.select(cptitle2text_sel).extract()[0].strip()
+        if  len(tmp_cptitle2text) > 50 or len(tmp_cptitle2text) < 2:
+            item["cptitle2text"] = "Short title not present" 
+            item["cptext1"] = tmp_cptitle2text 
+        else:
+            item["cptitle2text"] = tmp_cptitle2text
+            item["cptext1"]='NA'
 
         # html raw convert special char to html numeric codes
         # to make transfer easier

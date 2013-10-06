@@ -1,0 +1,948 @@
+model_cnt
+1239
+carepack_cnt
+400
+cp
+389
+dev
+630
+dc
+1232
+cat
+1
+length(raw1)
+58884
+20427
+18915
+18893
+18891
+18252
+16404
+15743
+15595
+15595
+length(raw2)
+28646
+28646
+25073
+25073
+25073
+25073
+25073
+25073
+25073
+25073
+pk	fkDevice	fkCarepack
+1	8192	32770
+2	8193	32770
+3	8194	32770
+4	8195	32770
+5	8196	32770
+6	8197	32770
+7	8198	32770
+8	8199	32770
+9	8200	32770
+10	8201	32770
+11	8202	32770
+12	8203	32770
+13	8204	32770
+14	8205	32770
+15	8206	32770
+16	8207	32770
+17	8208	32770
+18	8209	32770
+19	8210	32776
+20	8211	32776
+21	8212	32776
+22	8213	32776
+23	8214	32776
+24	8215	32776
+25	8216	32776
+26	8217	32776
+27	8218	32776
+28	8219	32776
+29	8220	32776
+30	8221	32776
+31	8222	32776
+32	8223	32776
+33	8224	32776
+34	8225	32776
+35	8226	32776
+36	8227	32776
+37	8228	32776
+38	8229	32776
+39	8230	32776
+40	8231	32776
+41	8232	32776
+42	8233	32776
+43	8234	32776
+44	8235	32776
+45	8236	32776
+46	8237	32776
+47	8238	32776
+48	8239	32776
+49	8240	32776
+50	8241	32776
+51	8242	32776
+52	8243	32776
+53	8244	32776
+54	8245	32776
+55	8246	32776
+56	8247	32776
+57	8248	32776
+58	8249	32776
+59	8250	32776
+60	8251	32776
+61	8252	32776
+62	8253	32776
+63	8254	32776
+64	8255	32776
+65	8256	32776
+66	8257	32776
+67	8258	32776
+68	8259	32776
+69	8260	32776
+70	8261	32776
+71	8262	32776
+72	8263	32776
+73	8264	32776
+74	8265	32776
+75	8266	32776
+76	8267	32776
+77	8268	32776
+78	8269	32776
+79	8270	32776
+80	8271	32776
+81	8272	32776
+82	8273	32776
+83	8274	32776
+84	8275	32776
+85	8276	32776
+86	8277	32776
+87	8278	32776
+88	8279	32776
+89	8280	32776
+90	8281	32776
+91	8282	32776
+92	8283	32776
+93	8284	32776
+94	8285	32776
+95	8286	32776
+96	8287	32776
+97	8288	32776
+98	8289	32776
+99	8290	32776
+100	8291	32776
+subcat
+subcat
+pk	RawCategory
+64	Other services
+devicename
+HP ProLiant DL120 G5 Non-Hot Plug Configure-to-order Rack Chassis
+HP ProLiant DL120 G5 Special Rack Server
+HP ProLiant DL120 G6 G6950 1P 2GB-U B110i NHP SATA 160GB LFF 400W PS ETY Server
+HP ProLiant DL120 G6 Hot Plug Configure-to-order Server
+HP ProLiant DL120 G6 Non-hot Plug Configure-to-order Server
+HP ProLiant DL120 G6 Special Rack Server
+HP ProLiant DL120 G6 X3430 1P 2GB-U B110i Cold Plug SATA 4 LFF 400W PS Base Svr
+HP ProLiant DL120 G6 X3450 1P 4GB-U P212/256 Hot Plug 4 LFF 400W PS Perf Server
+HP ProLiant DL120 G7 E3-1220 4GB-U 250GB LFF Cold Plug SATA B110i RAID 400W Svr
+HP ProLiant DL120 G7 E3-1220L 2GB-U B110i RAID 400W PS Server/Promo
+HP ProLiant DL120 G7 E3-1230 1P 4GB-U LFF Server/S-Buy
+HP ProLiant DL120 G7 E3-1240 4GB-U 250GB LFF SATA P212/256 400W RPS Server/S-Buy
+HP ProLiant DL120 G7 E3-1240 4GB-U P212/256 RAID 400W PS Server
+HP ProLiant DL120 G7 E3-1270 1P 4GB-U LFF Server/S-Buy
+HP ProLiant DL120 G7 Hot Plug 8 SFF Configure-to-order Server
+HP ProLiant DL120 G7 i3-2100 2GB-U 250GB LFF Cold Plug SATA B110i RAID 400W Svr
+HP ProLiant DL120 G7 Pluggable 4 LFF Configure-to-order Server
+HP ProLiant DL120 G7 Special Server
+HP ProLiant DL360 G6 Special Rack Server
+HP ProLiant DL380 G5 Special Rack Server
+HP ProLiant DL380 G6 Configure-to-order Rack Chassis
+HP ProLiant DL380 G6 E5504 1P 4GB-U P410i/ZM 8 SFF 460W PS Entry Server
+HP ProLiant DL380 G6 E5520 1P 6GB-R P410i/256 8 SFF 460W PS Base Server
+HP ProLiant DL380 G6 E5530 1P 6GB-R P410i/256 8 SFF 460W PS Base Server
+HP ProLiant DL380 G6 E5540 1P 6GB-R P410i/256 8 SFF 460W PS Base Server
+HP ProLiant DL380 G6 L5520 1P 4GB-U P410i/ZM 8 SFF 460W PS High Efficiency Svr
+HP ProLiant DL380 G6 LFF Configure-to-order Rack Server
+HP ProLiant DL380 G6 Special Rack Server
+HP ProLiant DL380 G6 X5550 2P 12GB-R P410i/512 BBWC 8 SFF 750W PS Perf Server
+HP ProLiant DL380 G6 X5560 2P 12GB-R P410i/512 BBWC 8 SFF 750W PS Perf Server
+HP ProLiant DL380 G7 E5506 1P 4GB-R P410i/ZM 8 SFF 460W PS Entry Server
+HP ProLiant DL380 G7 E5606 1P 4GB-R P410i/ZM 8 SFF 460W PS Server
+HP ProLiant DL380 G7 E5620 1P 6GB-R P410i/256 8 SFF 460W PS Base Server
+HP ProLiant DL380 G7 E5630 1P 6GB-R P410i/256 8 SFF 460W PS Base Server
+HP ProLiant DL380 G7 E5640 1P 6GB-R P410i/256 8 SFF 460W PS Base Server
+HP ProLiant DL380 G7 E5645 1P 6GB-R P410i/256 8 SFF 460W PS Server
+HP ProLiant DL380 G7 E5649 1P 6GB-R P410i/256 8 SFF 460W PS Svr
+HP ProLiant DL380 G7 L5630 1P 4GB-U P410i/ZM 4 SFF 460W PS Efficiency Server
+HP ProLiant DL380 G7 LFF Configure-to-order Server
+HP ProLiant DL380 G7 SFF Configure-to-order Server
+HP ProLiant DL380 G7 Special Rack Server
+HP ProLiant DL380p Gen8 12 LFF Configure-to-order Server
+HP ProLiant DL380p Gen8 25 SFF Configure-to-order Server
+HP ProLiant DL380p Gen8 25 SFF Configure-to-order Server/OEM
+HP ProLiant DL380p Gen8 8 LFF Configure-to-order Server
+HP ProLiant DL380p Gen8 8 SFF Configure-to-order Server
+HP ProLiant DL380p Gen8 8 SFF Configure-to-order Server/OEM
+HP ProLiant DL380p Gen8 E5-2609 1P 4GB-R P420i SFF 460W PS Entry Server
+HP ProLiant DL380p Gen8 E5-2609 1P 8GB-R P420i/ZMR SATA SFF 460W PS Server/S-Buy
+HP ProLiant DL380p Gen8 E5-2609v2 1P 4GB-R P420i/ZM 460W PS Server
+HP ProLiant DL380p Gen8 E5-2609v2 1P 8GB-R P420i/ZM 460W PS Server/S-Buy
+HP ProLiant DL380p Gen8 E5-2620 1P 16GB-R 900GB 460W Server/GO
+HP ProLiant DL380p Gen8 E5-2620 1P 16GB-R P420i FBWC LFF 460W PS Server/S-Buy
+HP ProLiant DL380p Gen8 E5-2620 1P 16GB-R P420i SFF 460W PS Base Server
+HP ProLiant DL380p Gen8 E5-2620 1P 16GB-R P420i/ZM SATA SFF 460W PS Server/S-Buy
+HP ProLiant DL380p Gen8 E5-2620v2 16GB-R P420i/2GB FBWC 12LFF 750W RPS Svr/S-Buy
+HP ProLiant DL380p Gen8 E5-2620v2 1P 16GB-R P420i/512 FBWC 460W PS Server/S-Buy
+HP ProLiant DL380p Gen8 E5-2630 1P 16GB-R P420i SFF 460W PS Base Server
+HP ProLiant DL380p Gen8 E5-2630 2P 16GB-R P420i Hot Plug SFF 460W PS Server
+HP ProLiant DL380p Gen8 E5-2630v2 1P 16GB-R P420i/1GB FBWC 460W PS Server
+HP ProLiant DL380p Gen8 E5-2630v2 2P 32GB-R P420i/1GB FBWC 460W PS Server
+HP ProLiant DL380p Gen8 E5-2640 16GB-R P420i/1GB FBWC 25 SFF 750W RPS Svr/S-Buy
+HP ProLiant DL380p Gen8 E5-2640 1P 16GB-R P420i 300GB SFF 750W PS Svr/S-Buy
+HP ProLiant DL380p Gen8 E5-2640 1P 16GB-R P420i SFF 460W PS Base Server
+HP ProLiant DL380p Gen8 E5-2640 2P 16GB-R P420i FBWC SFF 460W PS Server/S-Buy
+HP ProLiant DL380p Gen8 E5-2640v2 2P 32GB-R P420i/1GB FBWC 460W RPS Server/S-Buy
+HP ProLiant DL380p Gen8 E5-2640v2 32GB-R P420i/2GB FBWC 25SFF 750W RPS Svr/S-Buy
+HP ProLiant DL380p Gen8 E5-2650 2P 8GB-R Hot Plug 12 LFF 750W PS Server/S-Buy
+HP ProLiant DL380p Gen8 E5-2650v2 2P 32GB-R P420i/2GB FBWC 750W RPS Server
+HP ProLiant DL380p Gen8 E5-2660 2P 32GB-R P420i FBWC SFF 750W PS Server/S-Buy
+HP ProLiant DL380p Gen8 E5-2660v2 1P 16GB-R P420i/1GB FBWC 460W PS Server/S-Buy
+HP ProLiant DL380p Gen8 E5-2670 2P 32GB-R P420i FBWC SFF 750W PS Server/S-Buy
+HP ProLiant DL380p Gen8 E5-2670v2 2P 32GB-R P420i/1GB FBWC 750W RPS Server/S-Buy
+HP ProLiant DL380p Gen8 E5-2680 2P 8GB-R Hot Plug 25 SFF 750W PS Server/S-Buy
+HP ProLiant DL380p Gen8 E5-2690 2P 32GB-R P420i/1GB FBWC 8SFF 750W RPS Svr/S-Buy
+HP ProLiant DL380p Gen8 Special Server
+HP ProLiant DL388 G7 Special Rack Server
+HP ProLiant DL388p Gen8 Special Rack Server
+HP ProLiant DL385 G5 Special Rack Server
+HP ProLiant DL385 G5p 2372HE 2.1GHz Quad Core Entry Rack Server
+HP ProLiant DL385 G5p 2378 2.4GHz Quad Core Base Rack Server
+HP ProLiant DL385 G5p Special Rack Server
+HP ProLiant DL385 G6 2425HE 2.1GHz Six Core Rack Server
+HP ProLiant DL385 G6 2427 2.2GHz Six Core Entry Rack Server
+HP ProLiant DL385 G6 2435 2.6GHz Six Core Performance Rack Server
+HP ProLiant DL385 G7 6128 1P 4GB-R P410i/ZM 8 SFF 460W PS Entry Server
+HP ProLiant DL385 G7 6128HE 1P 4GB-U P410i/ZM 8 SFF 460W PS Efficiency Server
+HP ProLiant DL385 G7 6132HE 4GB-U P410i/ZM 8 SFF 460W 94 EFF PS Server
+HP ProLiant DL385 G7 6136 1P 8GB-R P410i/256 Hot Plug 1 SFF 460W PS Base Server
+HP ProLiant DL385 G7 6172 1P 8GB-R P410i/256 8 SFF 460W PS Base Server
+HP ProLiant DL385 G7 6176 1P 8GB-R P410i/256 SFF 460W PS Server
+HP ProLiant DL385 G7 6238 16GB-R Hot Plug SFF 460W PS Server
+HP ProLiant DL385 G7 6274 32GB-R Hot Plug SFF 460W PS Server
+HP ProLiant DL385 G7 LFF Configure-to-order Server
+HP ProLiant DL385 G7 SFF Configure-to-order Server
+HP ProLiant DL385p Gen8 12 LFF Configure-to-order Server
+HP ProLiant DL385p Gen8 25 SFF Configure-to-order Server
+HP ProLiant DL385p Gen8 6204 1P 8GB-R Hot Plug SFF 460W PS Server/S-Buy
+HP ProLiant DL385p Gen8 6212 1P 16GB-R P420i/512 Hot Plug 12 LFF 750W PS Server
+HP ProLiant DL385p Gen8 6212 1P 8GB-R 460W PS Server/GO
+HP ProLiant DL385p Gen8 6212 1P 8GB-R 460W PS Server/TV
+HP ProLiant DL385p Gen8 6212 1P 8GB-R P420i/512MB FBWC SFF 460W PS Server/S-Buy
+HP ProLiant DL160 G6 Special Rack Server
+HP ProLiant DL180 G6 Configure-to-order Rack Server
+HP ProLiant DL385p Gen8 6212 2P 16GB-R Hot Plug SFF 460W PS Server/S-Buy
+HP ProLiant DL385p Gen8 6234 1P 8GB-R Hot Plug SATA SFF 460W PS Server/TV
+HP ProLiant DL180 G6 E5506 1P 4GB-R B110i 4 LFF 460W PS Server
+HP ProLiant DL180 G6 E5606 1P 4GB-R 460W PS Entry Server
+HP 6200-24G-mGBIC yl Switch
+HP ProLiant DL385p Gen8 6234 2P 16GB-R Hot Plug SFF IC 460W PS Server/S-Buy
+HP ProLiant DL385p Gen8 6238 1P 8GB-R Hot Plug SATA SFF 750W PS Server/S-Buy
+HP ProLiant DL180 G6 E5620 1P 8GB-R P212/256 BBWC 12 LFF 750W PS Server
+HP ProLiant DL180 G6 E5620 1P 8GB-R P410/256 BBWC 8 LFF 460W PS Server
+HP 6600-24G-4XG Switch
+HP ProLiant DL385p Gen8 6238 2P 32GB-R P420i/1GB Hot Plug 8 SFF 2x750W PS Svr
+HP ProLiant DL385p Gen8 6272 1P 8GB-R 460W PS Server/GO
+HP ProLiant DL180 G6 E5645 2P 16GB-R 750W RPS Perf Server
+HP ProLiant DL180 G6 L5630 1P 4GB-L P410/256 8 LFF 460W PS Server
+HP 6600-24XG Switch for Factory Integration
+HP E6600-24G Switch
+HP ProLiant DL385p Gen8 6272 1P 8GB-R 460W PS Server/TV
+HP ProLiant DL385p Gen8 6272 2P 32GB-R Hot Plug SATA SFF 460W PS Server/S-Buy
+HP ProLiant DL180 G6 SFF Configure-to-order Server
+HP 2810-24G Switch
+HP 2910-24G al Switch
+HP ProLiant DL385p Gen8 6272 2P 32GB-R P420i/2GB Hot Plug 25 SFF 2x750W PS Svr
+HP ProLiant DL180 G6 Special Rack Server
+HP ProLiant DL180 G6 X5650 2P 16GB-R P410/256 BBWC 25 SFF 750W PS Server
+HP 2910-24G-PoE+ al Switch
+HP 3500-24 Switch
+HP ProLiant DL385p Gen8 6320 1P 16GB-R P420i/512 Hot Plug 12 LFF 750W PS Server
+HP ProLiant DL385p Gen8 6320 1P 4GB-R P420i/ZM Hot Plug 8 SFF 460W PS Server
+HP ProLiant DL288 G6 Special Rack Server
+HP ProLiant DL320 G5p Special Rack Server
+HP 3500-24G-PoE yl Switch
+HP 3500-24G-PoE+ yl Switch
+HP ProLiant DL385p Gen8 6344 2P 32GB-R P420i/1GB Hot Plug 8 SFF 2x750W PS Svr
+HP ProLiant DL385p Gen8 6348 1P 8GB-R P420i/1GB FBWC 25 SFF 2x750W RPS Svr/S-Buy
+HP ProLiant DL320 G6 Configure-to-order Rack Server
+HP ProLiant DL320 G6 E5502 1P 4GB-R B110i Hot Plug SATA LFF 400W PS Entry Server
+HP 2920-24G Switch
+HP ProLiant DL385p Gen8 6348 1P 8GB-R P420i/512 FBWC 750W RPS BR Server/S-Buy
+HP ProLiant DL385p Gen8 6376 2P 16GB-R P420i/1GB FBWC 8 SFF 2x750W RPS Svr/S-Buy
+HP ProLiant DL320 G6 E5503 1P 4GB-R B110i 4 LFF 400W PS Entry Server
+HP ProLiant DL320 G6 E5530 6GB-R P410/256 BBWC Hot Plug SAS 400W RPS Perf Server
+HP 2920-24G-POE+ Switch
+HP ProLiant DL385p Gen8 6376 2P 32GB-R P420i/2GB Hot Plug 25 SFF 2x750W PS Svr
+HP ProLiant DL385p Gen8 8 LFF Configure-to-order Server
+HP ProLiant DL320 G6 E5603 1P 4GB-R B110i SATA RAID 400W PS Server
+HP ProLiant DL385p Gen8 8 SFF Configure-to-order Server
+HP ProLiant ML310e Gen8 Special Server
+HP ProLiant DL320 G6 E5630 1P 6GB-R P410/256 Hot Plug SAS 4 LFF 400W RPS Server
+HP ProLiant DL320 G6 L5506 1P 4GB-U B110i Hot Plug SATA LFF 500W PS HE Server
+HP ProLiant DL320 G6 L5609 1P 4GB-U B110i 4 LFF 500W PS High Efficiency Server
+HP ProLiant DL320 G6 Special Rack Server
+HP Storage 50 Modular Smart Array
+HP Storage 2120 Disk System
+HP 10504 Switch Chassis
+HP 3800-24G-2SFP+ Switch
+HP 3800-24G-2XG Switch
+HP 3800-24G-PoE+-2SFP+ Switch
+HP 3800-24G-PoE+-2XG Switch
+HP 3800-24SFP-2SFP+ Switch
+HP 3800-48G-4SFP+ Switch
+HP 3800-48G-4XG Switch
+HP 3800-48G-PoE+-4SFP+ Switch
+HP 3800-48G-PoE+-4XG Switch
+HP F5000 Firewall Standalone Chassis
+HP 5830AF-48G Switch with 1 Interface Slot
+HP 5830AF-48G TAA-compliant Switch w/1 Interface Slot
+HP Storage X3000 Network Storage Systems
+HP StorageWorks X1800sb Network Storage Blade
+HP X1800sb G2 Network Storage Blade
+HP StorageWorks X3800sb Network Storage Gateway Blade
+HP X3800sb G2 Network Storage Blade
+HP 5900AF-48G-4XG-2QSFP+ Switch
+HP StorageWorks SB920c Tape Blade
+HP StoreEver LTO-4 Ultrium SB1760c Tape Blade
+HP StoreEver LTO-5 Ultrium SB3000c Tape Blade
+HP Ultrium 448c Tape Blade
+HP ProLiant DL785 G5 8376 HE 2.3GHz Quad Core 4P Rack Server
+HP ProLiant DL785 G5 8378 2.4GHz Quad Core 4P Rack Server
+HP ProLiant DL785 G5 8378 2.4GHz Quad Core 8P Server
+HP ProLiant DL785 G5 8380 2.5GHz Quad Core 4P Rack Server
+HP ProLiant DL785 G5 8380 2.5GHz Quad Core 8P Rack Server
+HP ProLiant DL785 G5 8384 2.7GHz Quad Core 4P Rack Server
+HP ProLiant DL785 G5 8387 2.8GHz Quad Core 4P Rack Server
+HP ProLiant DL785 G5 8389 2.9GHz Quad Core 4P Rack Server
+HP ProLiant DL785 G5 8393 SE 3.1GHz Quad Core 4P Rack Server
+HP ProLiant DL785 G5 Rack Configure-to-order Server
+HP ProLiant DL785 G6 8384 2.7GHz Quad Core 8P Sever
+HP MSM760 Premium Mobility Controller
+HP 4X FDR InfiniBand Managed Switch for BladeSystem c-Class
+HP 4X FDR InfiniBand Switch for BladeSystem c-Class
+QLogic InfiniBand QDR 36-port Switch
+Voltaire InfiniBand 4X DDR 24P External Managed Switch
+Voltaire InfiniBand 4X DDR 24P Internal Managed Switch
+Voltaire InfiniBand 4X QDR 36P Managed Switch
+Voltaire InfiniBand 4X QDR 36-port Reversed Air Flow Managed Switch
+Voltaire InfiniBand DDR Rev B 96P Switch Chassis
+Link
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=2168&prodid=1030931
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=2168&prodid=1030932
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=2168&prodid=1036905
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=2168&prodid=1035520
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=2168&prodid=1035526
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=2168&prodid=1035500
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=2168&prodid=1035501
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=2168&prodid=1035502
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=2168&prodid=1042426
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=2168&prodid=1042479
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=2168&prodid=1042972
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=2168&prodid=1042480
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=2168&prodid=1042427
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=2168&prodid=1042973
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=2168&prodid=1042520
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=2168&prodid=1042428
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=2168&prodid=1042521
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=2168&prodid=1042674
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1347&prodid=1034971
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1021424
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1034941
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1034951
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1034952
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1034953
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1034954
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1034955
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1034942
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1034972
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1034956
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1034957
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1039669
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1042328
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1039670
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1039671
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1039672
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1042331
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1042357
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1041027
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1039673
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1039674
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1039607
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1044108
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1044109
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1048242
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1043783
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1043874
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1048243
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1043029
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1043716
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1048552
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1048584
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1044663
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1044379
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1043030
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1043721
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1048658
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1048585
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1043031
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1043784
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1048553
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1048554
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1044501
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1043032
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1043033
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1043724
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1048591
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1048589
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1044221
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1048555
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1043725
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1048593
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1043726
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1048594
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1044222
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1048730
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1044251
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1040619
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1350&prodid=1044050
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1352&prodid=1030914
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1352&prodid=1034875
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1352&prodid=1034735
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1352&prodid=1034737
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1352&prodid=1035189
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1352&prodid=1035190
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1352&prodid=1035192
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1352&prodid=1039690
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1352&prodid=1041029
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1352&prodid=1042359
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1352&prodid=1039691
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1352&prodid=1039692
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1352&prodid=1042360
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1352&prodid=1042805
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1352&prodid=1042806
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1352&prodid=1039694
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1352&prodid=1039695
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1352&prodid=1044077
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1352&prodid=1044078
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1352&prodid=1044204
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1352&prodid=1044079
+http://h30094.www3.hp.com/filterby.aspx?type=0&catid=66&subcatid=1352&prodid=1044527
+SKU
+UW743E
+UQ991E
+U8H04E
+U8E43E
+U8B84PE
+U8B81PE
+U8A66E
+U7Q20E
+U6M44E
+U5V06E
+U5U92E
+U5U89E
+U4A24E
+U4A04E
+U4A01E
+U3Z84E
+U3Z81E
+U3Z67E
+U3Z64E
+U3Z61E
+U3Z35E
+U3Z27E
+U3Z24E
+U3Y81E
+U3Y72E
+U3Y64E
+U3Y61E
+U3Y15E
+U3Y12E
+U3Y09E
+U3Y01E
+U3X98E
+U3X84E
+U3X38E
+U3X21E
+U3W98E
+U3W95E
+U3W78E
+U3W75E
+U3W67E
+U3W55E
+U3W44E
+U3V72E
+U3V21E
+U3V01E
+U3U86E
+U3U66E
+U3T03E
+U3S83E
+U3S50E
+U3S47E
+U3S44E
+U3S36E
+U3S33E
+U3S30E
+U3S24E
+U3S16E
+U3S13E
+U3S10E
+U3S01E
+U3R90E
+U3R87E
+U3R84E
+U3R78E
+U3R67E
+U3R64E
+U3R61E
+U3R58E
+U3R55E
+U3R47E
+U3R44E
+U3R41E
+U3R35E
+U3R24E
+U3R21E
+U3R15E
+U3R04E
+U3R01E
+U3Q92E
+U3Q34E
+U3Q14E
+U3P71E
+U3P51E
+U3P48E
+U3P01E
+U3N98E
+U3N87E
+U3N84E
+U3N81E
+U3N64E
+U3N61E
+U3N44E
+U3N41E
+U3N30E
+U3N14E
+U3M94E
+U3M68E
+U3M36E
+U3M22E
+U3M19E
+title1
+HP 3 year 4 hour 24x7 Nexus 5000 6-Port 10GbE Module Proactive Care Service
+HP 4 year 6 hour CTR 24x7 with DMR MSA2000 G3 Arrays Proactive Care Service
+HP 5 year 4 hour 24x7 ProLiant DL120 Proactive Care Service
+HP 4 year 6 hour Call to repair 24x7 with DMR B Series 8/8 San Switch Proactive Care Service
+HP 5 year 6 hour Call to repair 24x7 1606 Base Ext Switch 6 Ports Proactive Care Service
+HP 5 year 6 hour Call to Repair Proactive Care 29xx-24 Switch Service
+HP 3 year Support Plus StoreVirtual
+HP 4 year 4 hour 24x7 MSL4048 Proactive Care Service
+HP 3 year 6 hour Call To Repair 24x7 w/DefectiveMedia Retention ProLiant DL38x(p) Proactive Care SVC
+HP 4 year 6 hour Call to repair 24x7 Nexus 5000 8-port 4Gb FC Module Proactive Care Service
+HP 5 year 6 hour Call To Repair 24x7 ProLiant DL320 Proactive Care Service
+HP 5 year 4 hour 24x7 MSA 30/20/50 Proactive Care Service
+HP 4 year 6 hour Call to repair 24x7 DS 2100 Proactive Care Service
+HP 5 year 6 hour Call to repair 24x7 with DMR B Series 8/40 San Switch Proactive Care Service
+HP 4 year 6 hour Call-To-Repair 24x7 with DMR P6300/P6500 EVA Hard Disk Drive Proactive Care Service
+HP 3 year 6 hour Call to repair 24x7 with DMR Nexus 5000 6-p 8Gb FC Module Proactive Care Service
+HP 4 year 4 hour 24x7 with DMR P6300 EVA Starter Kit Proactive Care Service
+HP 3 year 24x7 Insight Control Blade 16 Server Proactive Care Service
+HP 4 year 4 hour 24x7 P6300 EVA Starter Kit Proactive Care Service
+HP 3 year 6 hour Call-To-Repair 24x7 P6300 EVA Dual Controller CV Combo Kit Proactive Care Service
+HP 4 year 6 hour Call-To-Repair 24x7 P6300 EVA Starter Kit Proactive Care Service
+HP 4 year 6 hour Call to repair 24x7 B Series 8/80 San Switch Proactive Care Service
+HP 3 year 4 hour 24x7 Proactive Care 10504 Switch Service
+HP 5 year 4 hour 24x7 Proactive Care 3800 Switch Service
+HP 4 year 4 hour 24x7 MDS600 Proactive Care Service
+HP 4 year 4 hour 24x7 P4500 G2 Scalable Capacity SAN Solution Proactive Care Service
+HP 5 year 6 hour Call to Repair Proactive Care 3800 Switch Service
+HP 3 year 4 hour 24x7 with DMR P4800 G2 BladeSystem SAN Solution Proactive Care service
+HP 5 year 24x7 MDS FMS ent package blade system LTU Proactive Care Service
+HP 4 year 6 hour Call to Repair Proactive Care F5000 Firewall Appliance Service
+HP 5 year 4 hour 24x7 Proactive Care 5830-48 Switch Service
+HP 3 year 6 hour CTR 24x7 with DMR MSA2000 G3 Arrays Proactive Care Service
+HP 3 year 24x7 Network Software Group 3 Proactive Care Software Service
+HP 5 year 4 hour 24x7 with DMR X3800 Network Storage Gateway Proactive Care Service
+HP 3 year 4 hour 24x7 with DMR X3400 Network Storage Gateway Proactive Care Service
+HP 4 year 4 hour 24x7 x1800sb Network Storage System Proactive Care Service
+HP 5 year 6 hour Call-To-Repair 24x7 X3800 Network Storage Gateway Proactive Care Service
+HP 3 year 6 hour Call-To-Repair 24x7 X3400 Network Storage Gateway Proactive Care Service
+HP 4 year 6 hour Call-To-Repair 24x7 with DMR x3800sb Network Storage System Proactive Care Service
+HP 5 year 4 hour Exchange Plus 5900AF 48G 4XG 2QSFP Switch SVC
+HP 3 yearwith SupportPlus24 Defective Media Retension SN6500B 16GB Pwr Pak FC Switch Storage
+HP 4 year 6 hour Call-To-Repair 24x7 1U Tape Array Proactive Care Service
+HP 3 year 4 hour 24x7 DLT External Drives Proactive Care Service
+HP 5 year Next business day with CDM Retention Proactive Care Infiniband Group 9 Service
+HP 5 year 24x7 MSA2000 Snapshot 8-64 Upgrade Software LTU Proactive Care Service
+HP 5 year 4 hour 24x7 Preconfigured 3U Rackmount Proactive Care Service
+HP 5 year 6 hour call to repair 7X24 Proactive Care Infiniband Group 5 Support
+HP 2 year Post Warranty 4 hour 24x7 DL785 G5 Hi Collaborative Support
+HP 4 year 24x7 Networks MSM760 Software Support
+HP 5 year 4 hour response 24x7 Proactive Care w/ Defective Media Retention Infiniband GP5 Support
+HP 1 year Post Warranty Defective Media Retention Next day DL785 G5 Hi Collaborative Support
+HP 4 year 6 hour call to repair 7X24 Proactive Care Infiniband Group 6 Support
+HP 4 year 6 hour call to repair 7X24 with DMR Proactive Care Infiniband Group 6 Support
+HP 3 year Proactive Care Infiniband Group 8 Support
+HP 3 year Proactive Care with Defective Media Retention Infiniband Group 8 Support
+HP 5 year Proactive Care Infiniband Group 10 Support
+HP 5 year Proactive Care with Defective Media Retention Infiniband Group 10 Support
+HP 3 year 4 hour 24x7 B Series 8/40 San Switch Proactive Care Service
+HP 5 year 6 hour CTR 24x7 with Defective Media Retention D2D4100 Capacity Upgrade Proactive Care SVC
+HP 5 year 6 hour Call to repair 24x7 with DMR X1800 Network Storage System Proactive Care Service
+HP 4 year 4 hour 24x7 Proactive Care F5000 Firewall Appliance Service
+HP 4 year 4 hour response 24x7 Proactive Care w/Defective Media Retention Infiniband GP11 Support
+HP 3 year Next business day Proactive Care 10504 Switch Service
+HP 4 year 24x7 Rapid Deployment Pack Proactive Care Service
+HP 4 year 4 year response 7X24 Proactive Care Infiniband Group 11 Support
+HP 4 year 6 hour Call to Repair Proactive Care MSM720 MC Service
+HP 4 year 4 hour 24x7 Proactive Care MSM720 MC Service
+HP 5 year Next business day Proactive Care 3800 Switch Service
+HP 3 year 6 hour Call to Repair Proactive Care MSM466-R AP Service
+HP 3 year 24x7 Network Software Group 2 Proactive Care Software Service
+HP 4 year Next business day Proactive Care 802.11 Wireless Bridge Service
+HP 4 year 4 hour 24x7 Proactive Care 802.11 Wireless Bridge Service
+HP 5 year 6 hour Call to Repair Proactive Care MSM310-R Access Point Service
+HP 3 year 6 hour Call to Repair Proactive Care MSM320-R Access Point Service
+HP 1 year 24x7 2620 Switch Software Support
+HP 1 year Post Warranty 4 hour 13x5 with Defective Material Retention BLc SB40c Hardware Support
+HP 1 year 4 hour 13x5 2620 Switch Hardware Support
+HP 4 year 4 hour 24x7 3800 Switch Hardware Support
+HP 5 year 6 hour Call to Repair 2620 Switch Hardware Support
+HP 4 year Support Plus24 3800 Switch Service
+HP 3 year Support Plus24 10504 Switch Service
+HP 3 year 4 hour 24x7 10504 Switch Hardware Support
+HP 3 year 24x7 10508 Switch Software Support
+HP 4 year 4 hour 24x7 10508 Switch Hardware Support
+HP 3 year Support Plus24 F5000 Firewall Appliance Service
+HP 3 year 6 hour Call to Repair F1000 VPN Firewall Appliance Hardware Support
+HP 3 year 24x7 5830-96G Switch Software Support
+HP 4 year 4 hour 13x5 F1000 VPN Firewall Appliance Hardware Support
+HP 4 year 4 hour 24x7 5830-96G Switch Hardware Support
+HP 4 year 9x5 Support D2D4324 Replication License Software Storage
+HP Install E5700 40TB/80TB Messaging System Service
+HP 1 year Networks MSR20 Router Software Support
+HP 3 year 9x5 HPAC Intelligent Print Management 250 Package Licenses Software Support
+HP 3 year 9x5 Nuance eCopy EMC Doc Connector Vol 1 Package License Software Support
+HP 3 year 9x5 Nuance eCopy Quick Connect Connector 1 Package License Software Support
+HP 1 year 9x5 Nuance eCopy Xerox Docushare Connector 1 Package License Software Support
+HP 3 year Next business day 9x5 with Defective Media Retention D2000 Enclosure Hardware Support
+HP 3 year 6 hour 24x7 Call To Repair SN6000B 16Gb 48/24 FC Switch Hardware Support
+HP 3 year 24x7 MSA Snapshot 64-256 Upgrade Software LTU Proactive Care Service
+HP 5 year 4 hour 24x7 MDS 8/12c 8/24C Fabric Software Proactive Care Service
+HP 4 yr 6 hour Call to Repair Proactive Care ONE zl Module Avaya SBC powered by Acme Packet Service
+HP 3 year 24x7 Data Protector Expresses 5.010 Server Proactive Care Service
+HP 3 year 9x5 Nuance eCopy Barcode Recognition 1 Package License Software Support
+HP 1 year Post Warranty Defective Media Retention with Second Coverage Day CTR SJ8500fn1 HW Support
+HP 1 year 9x5 Nuance eCopy Open Text Right Fax 1 Package License Software Support
+HP 1 year 9x5 Nuance eCopy MS SharePoint Vol 1 Package License Software Support
+HP 1 year 9x5 Nuance eCopy PDF Pro Office 50-399 Package License Software Support
+HP Installation E5700 G2 40/80TB LFF MDL SAS Messaging Sys Storage
+HP 5 year Next business day SN6000B 16Gb 48/24 FC Switch Hardware Support
+HP 3 year 4 hour 13x5 10508 Switch Hardware Support
+HP 3 year 4 hour 24x7 F5000 Firewall Appliance Hardware Support
+HP 3 year 4 hour 13x5 12500 VPN Firewall Module Hardware Support
+HP 3 year 4 hour 13x5 5830-96G Switch Hardware Support
+HP 1 year 4 hour 13x5 Advanced Services zl Module with VmWare vSphere Platform  Hardware Support
+HP 3 year 4 hour 13x5 Advanced Services zl Module with VmWare vSphere Platform  Hardware Support
+HP 1 year 24x7 VMw vSphere Ess-Ent+ Kit upgrade 6P 1 year 9x5 Software Support
+HP 3 year 4-Hour Exchange Plus 19xx Switch Support
+HP 5 year Next business day Exchange Plus 19xx Switch Support
+HP 4 year 9X5 VMw vSphere Ess+-Ent+ Kit upgrade 6P 3 year 9x5 Software Support
+HP Digitial Signage Display Installation Service
+HP 4 year 4 hour 24x7 Proactive Care 19xx Switch Service
+HP 4 year 6 hour Call to Repair Proactive Care 19xx Switch Service
+HP 5 year 6 hour Call to Repair Proactive Care 4500 Switch Service
+HP 3 year 6 hour Call to Repair Proactive Care 88xx Router Service
+HP 5 year 4 hour 24x7 Proactive Care 5830-96G Switch Service
+HP 3 year 4 hour 24x7 Proactive Care F1000 VPN Firewall Appliance Service
+HP 3 year 6 hour Call to Repair Proactive Care 31xx Switch Service
+HP 3 year 6 hour Call to Repair Proactive Care MSM710 Mobility Controller Service
+HP 5 year 6 hour Call to Repair Proactive Care MSM325 Access Point Service
+HP 3 year 6 hour Call to Repair Proactive Care MSM335 Access Point Service
+HP 5 year 4 hour 24x7 Proactive Care Secure Router MSR50 Service
+HP 4 year 6 hour Call to Repair Proactive Care M200 802.11n Access Point Service
+HP 5 year 6 hour Call to Repair Proactive Care MSM765zl Mobility Controller Service
+HP 4 year 4 hour 24x7 Proactive Care M200 802.11n Access Point Service
+HP 4 year 4 hour 24x7 Proactive Care MSM110 Access Point Service
+HP 3 year 6 hour Call to Repair Proactive Care Threat Management zl module Service
+HP 4 year 4 hour 24x7 Proactive Care 9xx Access Point Service
+HP 5 year 4 hour 24x7 Proactive Care S2xx Appliance Service
+HP 4 year 6 hour Call to Repair Proactive Care 9xx Access Point Service
+HP 4 year 4 hour 24x7 Proactive Care 5800-24 Switch Service
+HP 3 year 6 hour Call to Repair Proactive Care 4800 Switch Service
+HP 3 year 4 hour 24x7 Proactive Care 29xx-48 Switch Service
+HP 5 year 6 hour Call to Repair Proactive Care WA Access Point Service
+HP 5 year 4 hour 24x7 Proactive Care WA Access Point Service
+HP 3 year 6 hour Call to Repair Proactive Care 29xx-48 Switch Service
+HP 5 year 4 hour 24x7 Proactive Care 30xx Wireless Switch Service
+HP 5 year 6 hour Call to Repair Proactive Care 30xx Wireless Switch Service
+HP 3 year 4 hour 24x7 Proactive Care 7700/8700 Access Point Service
+HP 5 year 4 hour 24x7 Proactive Care ONE Advanced zl module Service
+HP 4 year 4 hour 24x7 Proactive Care 4202vl Switch Service
+HP 3 year 4 hour 24x7 Proactive Care 1400-8G Switch Service
+HP 4 year 6 hour Call to Repair ProactiveCare ONE Advanced zl module VmWare vSphere Platform Service
+HP 3 year 4 hour 24x7 ProLiant DL320 Proactive Care Service
+HP 5 year 6 hour Call to Repair Proactive Care ONE Advanced zl module Service
+HP 5 year 4 hour 24x7 ProLiant WS460c Proactive Care Service
+HP 5 year 4 hour 24x7 with Defective Media Retention ProLiant WS460c Proactive Care Service
+HP 4 year 4 hour 24x7 c3000 Enclosure Proactive Care Service
+HP 3 year 6hr Call To Repair 24x7 with Defective Media Retention ProLiant DL2000 Proactive Care SVC
+HP 3 year 4hr 24x7 with Defective Media Retention DL370 with Insight Control Proactive Care Service
+HP 4 year 6 hour Call To Repair 24x7 ProLiant DL38x(p) with Insight Control Proactive Care Service
+HP 3 year 4 hour response 24x7 Proactive Care w/ Defective Media Retention Infiniband GP7 Support
+HP 4 year 4 hour response 7X24 Proactive Care Infiniband Group 6 Support
+HP 5 year 4 hour response 24x7 Proactive Care w/ Defective Media Retention Infiniband GP8 Support
+HP 5 year 6 hour call to repair 7X24 Proactive Care Infiniband Group 8 Support
+HP 4 year 6 year call to repair 7X24 with DMR Proactive Care Infiniband Group 10 Support
+HP 5 year Proactive Care ProLiant DL785Hi Support
+HP 4 year 4 hour response 24x7 Proactive Care ProLiant DL785 G6 Support
+HP 5 year Proactive Care with Defective Material Retention ProLiant DL785Hi Support
+HP 5 year 6 hour call to repair 24x7 Proactive Care ProLiant DL980 Support
+HP 4 year 6 hour Call To Repair 24x7 ProLiant BL2xxc Proactive Care Service
+HP 4 year 6 hour call to repair 24x7 with DMR Proactive Care ProLiant DL980 with ICE Support
+HP 1 year 9x5 FormPort Server Printer E-LTU Package License Software support
+HP 4year 6hr Call To Repair 24x7 withDefective Media Retention ProLiant BL2xxc Proactive Care SVC
+HP 5 year Proactive Care Infiniband Group 5 Support
+HP 3 year 4-Hour Exchange Plus 2620 Switch Support
+HP 1 year Next business day Exchange Plus 3800 Switch Support
+HP 5 year 4 hour 13x5 3800 Switch Hardware Support
+HP 1 year 4 hour 24x7 3800 Switch Hardware Support
+HP 4 year 6 hour Call to Repair 10504 Switch Hardware Support
+HP 4 year 6 hour Call to Repair F5000  Firewall Appliance Hardware Support
+HP 4 year 4 hour 24x7 MSA 2000 Array Proactive Care Service
+HP 5 year 4 hour 24x7 with Defective Media Retention SN6000 24-port FC Switch Proactive Care Service
+HP 5 year 4 hour 24x7 with DMR B6200 Base System Proactive Care service
+HP 4 year 24x7 F1000 VPN Firewall Appliance Software Support
+HP 3 year 4 hour 24x7 with Defective Media Retention E5000 Messaging System Proactive Care Service
+HP 3 year 4 hour 24x7 X5000 Network Storage System Proactive Care Service
+HP 4 year 4 hour 24x7 1U Tape Array Proactive Care Service
+HP 4 year 24x7 Data Protector Expresses 5.010 Server Proactive Care Service
+HP 4 year Next business day 1U Tape Array Proactive Care Service
+HP 4 year 24x7 MDS FMS Ent package blade system LTU Proactive Care Service
+HP 3 year 4 hour 24x7 MSL8096 Proactive Care Service
+HP 3 year Proactive Care SLES x86 32/64bit 2+P 3 year Subsystem No Media E-License to use Service
+HP 5 year 6 hour Call-To-Repair 24x7 External DAT/DLT VS Tape Drives Proactive Care Service
+HP 3 year 4 hour 24x7 Proactive Care MSM320-R Access Point Service
+HP 3 year 6 hour call to repair 7X24 with DMR Proactive Care Infiniband Group 7 Support
+HP 5 year 6 hour call to repair 7X24 with DMR Proactive Care Infiniband Group 8 Support
+HP 5 year 4 hour 24x7 Nexus 5000 8-port 4Gb FC Module Proactive Care Service
+HP 4 year Proactive Care with Defective Media Retention Infiniband Group 11 Support
+HP 2 hour Deinstallation After Hours Service
+HP 4 year 4 hour 24x7 Proactive Care 6602 router Service
+title2
+HP 3y4h24x7Nexus5K 6-P10GbE ModProACreSvc
+HP 4y6hCTR24x7wDMRMSA2KG#Arrays PrACSv
+HP 5y 4h 24x7 DL120 ProCare Service
+HP 4y6hCTR24x7wDMRB-S 8/8 SanSwProAcCrSvc
+HP 5y6hCTR24x71606Base Ext Sw 6-P PrACSv
+HP 5y 6hCTR ProactCare Stack24 Switch SVC
+HP 3y Support Plus G3 Store Virt Stor
+HP 4y 4h 24x7 MSL4048 Proact Care SVC
+HP 3y6hCTR24x7w/DMR DL38x ProCare SVC
+HP 4y6hCTR24x7Nexus5K8-p4GbFCMProACareSvc
+HP 5y 6h CTR 24x7 DL320 ProCare SVC
+HP 5y 4h 24x7 MSA 30/20/50 ProAcCrSvc
+HP 4y 6hCTR 24x7 DS 2100 ProAcCrSvc
+HP 5y6hCTR24x7wDMRB-S8/40SanSwProAcCrSvc
+HP 4y6hCTR24x7wDMR P6000 HDD ProCare SVC
+HP 3y6hCTR24x7wDMRNxs5K6-pFCMProAcCrSvc
+HP 4y4h24x7w/DMR P6300 Str Kit ProCarSVC
+HP 3y 24x7 IC BL 16-Svr ProCare SVC
+HP 4y 4h 24x7 P6300 Str Kit ProCare SVC
+HP 3y 6hCTR 24x7 P6300 Combo ProCareSVC
+HP 4y 6hCTR 24x7 P6300 Str Kit ProCarSVC
+HP 4y6hCTR24x7 B-S 8/80 SanSw ProAcCrSvc
+HP 3y4h24x7ProactCare10504 Switch Svc
+HP 5y4h24x7ProactCare3800 switch Svc
+HP 4y 4h 24x7 MDS600 ProAcCrSvc
+HP 4y 4h 24x7 P4500 SC Sol ProCare SVC
+HP 5y 6hCTR ProactCare3800 switch Svc
+HP 3y4h24x7w/DMR P4800 BLSys ProCare SVC
+HP 5y24x7 MDS FMS ent pkg BS LTU ProCrSv
+HP 4y6hCTRProactCare F5000 FW Applnc Svc
+HP 5y4h24x7ProactCare 5830-48 switch Svc
+HP 3y6hCTR24x7wDMRMSA2KG#Arrays PrACSv
+HP 3y24x7 Ntwk SW Grp3 ProactCare SW SVC
+HP 5y4h24x7w/DMR X3800 NSG ProCare SVC
+HP 3y4h24x7w/DMR X3400 NSG ProCare SVC
+HP 4y 4h 24x7 x1800sb NSS ProCare SVC
+HP 5y 6hCTR 24x7 X3800 NSG ProCare SVC
+HP 3y 6hCTR 24x7 X3400 NSG ProCare SVC
+HP 4y6hCTR24x7w/DMR x3800sb ProCareSVC
+HP 5y 4h ExchPlus 5900AF 2QSFP Swtch SVC
+HP 3y SuppPlus24DMRSN6500B16GBPP Storage
+HP 4y 6hCTR 24x7 1U Tape Arry ProCareSVC
+HP 3y 4h 24x7 DLT Ext Drive Pro Care SVC
+HP 5y ProCare w/CDMR Infiniband GP9 SVC
+HP 5y24x7MSA2KSnpSh8-64UpgSW LTU ProCrSv
+HP 5y 4h 24x7 3U Rackmount ProCare SVC
+HP 5y6hr24x7 CTR ProCare InfinibndGP5SVC
+HP 2y PW 4h 24x7 DL785 G5 Hi Supp
+HP 4y 24x7 Ntwk MSM760 Software Support
+HP 5y4hr24x7 ProCare DMR InfinibndGP5SVC
+HP 1y PW DMR ND DL785 G5 Hi Supp
+HP 4y6hr24x7 CTR ProCare InfinibndGP6SVC
+HP 4y6hr24x7CTRDMRProCareInfinibndGP6SVC
+HP 3y ProCare Infiniband GP8 SVC
+HP 3y ProCare w/DMR Infiniband GP8 SVC
+HP 5y ProCare Infiniband GP10 SVC
+HP 5y ProCare w/DMR Infiniband GP10 SVC
+HP 3y4h24x7 B-S 8/40 San Swtch ProAcCrSvc
+HP 5y6hCTR24x7w/DMRD2D4100 Up ProCareSVC
+HP 5y6hCTR24x7w/DMR X1800 NSS ProCareSVC
+HP 4y4h24x7ProactCare F5000 FW Applnc Svc
+HP 4y4hr24x7ProCare DMR InfinibndGP11SVC
+HP 3y Nbd ProactCare 10504 Switch Svc
+HP 4y 24x7 RDP ProCare SVC
+HP 4y 4hr24x7 ProCare InfinibandGP11 SVC
+HP 4y 6h CTR ProactCare MSM720 MC Svc
+HP 4y 4h 24x7 ProactCare MSM720 MC Svc
+HP 5y Nbd ProactCare 3800 switch Svc
+HP 3y 6h CTR Proact Care MSM466-R AP Svc
+HP 3y24x7 Ntwk SW Grp2 ProactCare SW SVC
+HP 4yNbdProactCare 802.11WrlessBridge Svc
+HP 4y4h24x7ProactCare802.11WrlessBrdgSvc
+HP 5y 6hCTR ProactCare MSM310-R AP Svc
+HP 3y 6hCTR Proact Care MSM320-R AP Svc
+HP 1y 24x7 2620 Switch SW Support
+HP 1y PW 4h13x5w/CDMR BLc SB40c HW Supp
+HP 1y 4h 13x5 2620 Switch HW Support
+HP 4y 4h 24x7 3800 Switch HW Support
+HP 5y 6h CTR 2620 Switch HW Support
+HP 4y SupportPlus24 3800 Switch Svc
+HP 3y SupportPlus24 10504 Switch Svc
+HP 3y 4h 24x7 10504 Switch HW Support
+HP 3y 24x7 10508 Switch SW Support
+HP 4y 4h 24x7 10508 Switch HW Support
+HP 3y Support Plus24 F5000 FW Applnc Svc
+HP 3y 6h CTR F1000 VPN FW Applnc HW Supp
+HP 3y 24x7 5830-96G Switch SW Support
+HP 4y 4h 13x5 F1000VPN FW Applnc HW Supp
+HP 4y 4h 24x7 5830-96G Switch HW Support
+HP 4y 9x5 D2D4324 Replication Lic SW Svc
+HP Install E5700 40TB/80TB Mess Sys Svc
+HP 1y 24x7 A-MSR20 Router SW Support
+HP 3y 9x5 HPAC IPM 250 Pack Lic SW Supp
+HP 3y 9x5 Ne EDCV 1 Package Lic SW Supp
+HP 3y 9x5 Ne QCC 1 Package Lic SW Supp
+HP 1y 9x5 Ne XDC 1 Package Lic SW Supp
+HP 3y Nbd 9x5 w/DMR D2000 Encl HW Supp
+HP 3y 6h24x7CTR SN6000B16Gb48/24FC HWSup
+HP 3y24x7MSASnpSh64-256Upg SW LTU ProCrSv
+HP 5y4h24x7 MDS 8/12c 8/24C FSw ProCareSv
+HP 4y6hCTRProactCarONEzlmodw/AvayaSBC Svc
+HP 3y24x7DataProtExp 5.010 Server ProCrSv
+HP 3y 9x5 Ne BR 1 Package Lic SW Supp
+HP 1yPWDMR w/2ndDayCTR SJ8500fn1 HW Supp
+HP 1y 9x5 Ne OTRF 1 Package Lic SW Supp
+HP 1y 9x5 Ne MSV 1 Package Lic SW Supp
+HP 1y 9x5Ne PPO 50-399 Package Lic SWSup
+HP Installation E5700G2 40/80TB LFF Stor
+HP 5y Nbd SN6000B16Gb48/24FC HW Supp
+HP 3y 4h 13x5 10508 Switch HW Support
+HP 3y 4h 24x7 F5000 FW Appliance HW Supp
+HP 3y 4h 13x5 12500 VPN FW Mod HW Supp
+HP 3y 4h 13x5 5830-96G Switch HW Support
+HP1y4h13x5AdvSVC MdVmWvSpr Pf HWSupp
+HP3y4h13x5 AdvSVC MdVmWvSpr Pf HWSupp
+HP1y24x7VMvSphEss-Ent+KU6P1y9x5SWSup
+HP3y4h24x7HWExch 19xx Switch+24x7SWSup
+HP5yNbd HWExch 19xx Switch + 24x7SW Sup
+HP4y9X5VMwvSphEss+-Ent+KtUp6P3y9x5SWSup
+HP 13x7 Installation Digital Signage SVC
+HP 4y4h24x7ProactCare19xx Switch Svc
+HP 4y 6hCTR Proact Care 19xx Switch Svc
+HP 5y 6hCTR ProactCare4500 switch Svc
+HP 3y6hCTRProactCare8805/08/12 Router Svc
+HP 5y4h24x7ProactCare5830-96G switch Svc
+HP 3y4h24x7ProactCareF1000VPNFWApplnc Svc
+HP 3y 6hCTR Proact Care 3100 Switch Svc
+HP 3y 6hCTR Proact Care MSM710 MC Svc
+HP 5y 6hCTR ProactCare MSM325 AP Svc
+HP 3y 6hCTR Proact Care MSM335 AP Svc
+HP 5y4h24x7ProactCareMSR50 Router Svc
+HP 4y 6hCTR ProactCare M200 802.11 AP SVC
+HP 5y 6hCTR ProactCare MSM765zl MC Svc
+HP 4y4h24x7 ProactCare M200 802.11 AP SVC
+HP 4y4h24x7 ProactCare MSM110 AP Svc
+HP 3y 6hCTR Proact Care TMS zl module Svc
+HP 4y4h24x7ProactCare 9xx AccessPoint svc
+HP 5y4h24x7ProactCareS2xx Appliance Svc
+HP 4y6hCTR ProactCare 9xx AccessPoint svc
+HP 4y4h24x7 ProactCare 5800-24 switch Svc
+HP 3y 6hCTR Proact Care 4800 Switch Svc
+HP 3y4h24x7 ProactCare Stack48 Svc
+HP 5y6hCTRProactCare WA Access Point Svc
+HP 5y4h24x7ProactCare WA Access Point Svc
+HP 3y 6hCTR ProactCare Stack48 Svc
+HP 5y4h24x7ProactCare30xxWrlessSwitch Svc
+HP 5y6hCTRProactCare30xxWrless Switch Svc
+HP 3y 4h 24x7 ProactCare 77/8700 AP Svc
+HP 5y4h24x7 ProactCare ONE Adv zl mod Svc
+HP 4y 6hCTR ProactCare 4202vl Switch Svc
+HP 3y4h24x7 ProactCare 1400-8G Switch Svc
+HP 4y6hCTR ProCare AdvSVCMdVmWvSpr Pf Svc
+HP 3y 4h 24x7 DL320 ProCare Service
+HP 5y6hCTR ProactCare ONE Adv zl mod Svc
+HP 5y 4h 24x7 WS460c ProCare Service
+HP 5y4h24x7w/DMR WS460c ProCare SVC
+HP 4y 4h 24x7 c3000 ProCare Service
+HP 3y6hCTR24x7w/DMRDL2000 ProCare SVC
+HP 3y 4h 24x7w/DMR DL370w/IC ProCare SVC
+HP 4y 6h CTR 24x7 DL38x w/IC ProCare SVC
+HP 3y4hr24x7 ProCare DMR InfinibndGP7SVC
+HP 4y 4hr24x7 ProCare Infiniband GP6 SVC
+HP 5y4hr24x7 ProCare DMR InfinibndGP8SVC
+HP 5y6hr24x7 CTR ProCare InfinibndGP8SVC
+HP4y6hr24x7CTRDMRProCareInfinibndGP10SVC
+HP 5y ProCare DL785Hi SVC
+HP 4y 4hr 24x7 ProCare DL785 G6 SVC
+HP 5y ProCare w/DMR DL785Hi SVC
+HP 5y 6hr 24x7 CTR ProCare DL980 SVC
+HP 4y 6hCTR 24x7 BL2xxc ProCare SVC
+HP 4y6hr24x7CTRw/DMRProCareDL980w/ICESVC
+HP 1y 9x5 FP SP Pack Lic SW Support
+HP 4y6hCTR24x7w/DMRBL2xxc ProCare SVC
+HP 5y ProCare Infiniband GP5 SVC
+HP3y4h24x7HWExch 2620 Switch+24x7SWSup
+HP1yNbd HWExch 3800 Switch + 24x7SW Sup
+HP 5y 4h 13x5 3800 Switch HW Support
+HP 1y 4h 24x7 3800 Switch HW Support
+HP 4y 6h CTR 10504 Switch HW Support
+HP 4y 6h CTR F5000 FW Appliance HW Supp
+HP 4y 4h 24x7 MSA 2000 Array ProAcCrSvc
+HP 5y4h24x7wDMRNxs5K6-p8GbFCModProatCrSvc
+HP 5y4h24x7w/DMR B6200 Sys ProCare SVC
+HP 4y 24x7 F1000VPN FW Appliance SW Supp
+HP 3y4h24x7wDMRE5000 Mess SysProAcCrSvc
+HP 3y 4h 24x7 X5000 NSS ProCare SVC
+HP 4y 4h 24x7 1U Tape Array ProCare SVC
+HP 4y24x7 Data Prot Exp 5.010 Svr ProCrSv
+HP 4y Nbd 1U Tape Array ProCare SVC
+HP 4y24x7 MDS FMS Ent pkg BS LTU ProCrSv
+HP 3y 4h 24x7 MSL8096 Proact Care SVC
+HP 3y Pro Care SLES x86 32/64b SW SVC
+HP 5y 6hCTR 24x7 DAT Tape Drv ProCareSVC
+HP 3y4h24x7ProactCareMSM320-R AP Svc
+HP 3y6hr24x7CTRDMRProCareInfinibndGP7SVC
+HP 5y6hr24x7CTRDMRProCareInfinibndGP8SVC
+HP 5y4h24x7Nexus5K 8-p4GbFCModProACareScv
+HP 4y ProCare w/DMR Infiniband GP11 SVC
+HP Simple DeInstallation After Hours SVC
+HP 4y4h24x7 ProactCare 6602 router Svc
+raw1
+<div id="overviewContent" class="visibleTrue">\n        <div class="product">\n          <span id="ctl11_ctl00_LocalLiteralOverViewDetails"><input type="hidden" name="asku" value="" xmlns:vbs="urn:schemas-sqlxml-org:vbs"><input type="hidden" name="cnet_id" value="" xmlns:vbs="urn:schemas-sqlxml-org:vbs"><div class="cnet_mainspecs" xmlns:vbs="urn:schemas-sqlxml-org:vbs"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td class="cnet_textparagraph">HP 3y4h24x7Nexus5K 6-P10GbE ModProACreSvc</td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td class="cnet_mainheader">Description</td></tr><tr><td class="cnet_rule"></td></tr><tr><td class="cnet_textparagraph"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td colspan="2"><table width="100%" cellspacing="0" cellpadding="0"><tr><td colspan="10" class="cnet_textparagraph">HP Proactive Care Service (Proactive Care) offers an integrated set of proactive and reactive services designed to help you improve the availability and performance of your converged infrastructure. In a complex environment, many components need to work together effectively. Proactive Care has been specifically designed to support these complex environments, providing an end-to-end environment support solution that covers servers, operating systems, hypervisors, storage, storage area networks (SANs), and networks.\nIn the event of a service incident, Proactive Care provides access to technical solution specialists who can help you to rapidly resolve critical issues. HP employs accelerated escalation procedures to resolve complex incidents. In addition, your support team of HP specialists is equipped with remote technologies and tools designed to reduce downtime and increase productivity.* The service includes onsite hardware repair if it is required to resolve the issue. You can choose from a range of hardware reactive support levels to meet your business and operational needs.\nProactive Care helps you avoid issues by providing such services as firmware release and software patching analysis and recommendations, so that your environment is current and compatible. You will receive a regular Proactive Scan of covered products which can help you to uncover configuration, availability, and security problems more proactively. Proactive Care also provides regular incident reporting to help you avoid repeat problems.</td></tr></table></td></tr><tr><td width="80%" class="cnet_textparagraph"><ul style="margin-left: -25px;margin-top: 2px;"></ul></td><td width="20%"></td></tr><tr><td width="80%" style="font-style: italic"><table width="100%" cellspacing="0" cellpadding="0"><tr><td style="padding:0 35px;"></td></tr></table></td><td width="20%"></td></tr></table></td></tr></table></div></span>\n          <div class="serviceAndSupportInfo">\n            <div class="serviceAndSupportInfoTitle">\n              <strong><span id="ctl11_ctl00_LabelPhone">Service and Support provided by: </span></strong>\n            </div>\n            <span id="ctl11_ctl00_LabelServiceAndSupport"></span>\n            <table class="cnet_textparagraph"><tr><td>\n                  <div class="visibleTrue">\n                    Hewlett Packard\n                  </div>\n                </td> \n                <td width="20px" bgcolor="#ffffff" colspan="4"></td>                                \n                <td>\n                  <div class="visibleFalse">\n                  Customer Service: \n                  </div>\n                </td>                                    \n                <td width="20px" bgcolor="#ffffff" colspan="4"></td>                                \n                <td class="cnet_textparagraph">\n                  <div class="visibleTrue">\n                  Technical: 800.334.5144\n                  </div>\n                </td>\n              </tr></table></div>\n        </div>        \n        <div id="ctl11_ctl00_hardwareCompatibleCategoryList" class="compatibleHardware showHideTree">\n\n</div>\n\n        <div class="CustomerViewedTitle visibleFalse">\n          Customers who viewed this item also viewed...\n        </div>\n        <table id="ctl11_ctl00_customerViewedProducts" class="compareItems customerView"></table></div>
+raw2
+<div id="specsContent" style="display:none;">\n         <div class="sort visibleFalse">\n          <label for="ctl11_ctl00_ddProductControl" id="ctl11_ctl00_LabelSortOrder">Product Documents:</label>\n          \n          <a class="visibleFalse" href="javascript:OpenDocument();">\n            <img alt="" src="/assets/local//button_arrow.gif"></a>\n          \n        </div>\n        <span id="ctl11_ctl00_LocalLiteralSpecificationDetails"><input type="hidden" name="asku" value="" xmlns:vbs="urn:schemas-sqlxml-org:vbs"><input type="hidden" name="cnet_id" value="" xmlns:vbs="urn:schemas-sqlxml-org:vbs"><div class="cnet_mainspecs" xmlns:vbs="urn:schemas-sqlxml-org:vbs"><br><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td class="cnet_tablelines"><table border="0" cellpadding="0" cellspacing="0" width="100%" title="requirements"><tr><td class="cnet_tableleft" width="20%">Coverage</td><td class="cnet_tableright" width="80%">If the Customer does not act upon the specified Customer responsibilities, HP or the HP authorized service provider will, at HPs discretion, i) not be obligated to deliver the services as described, or ii) perform such service at the Customers expense at the prevailing time-and-materials rates. The Customer will identify a focal point and an internal Customer team to work collaboratively with the HP account team in the development, implementation, and ongoing review of account support plan. The call-to-repair time commitment is subject to the Customer providing immediate and unrestricted access to the system, as requested by HP. The call-to-repair time commitment does not apply when system access, including physical, remote troubleshooting, and hardware diagnostic assessments, is delayed or denied. If the Customer requests scheduled service, the call-to-repair time period begins at the agreed-upon scheduled time. Upon HP request, the Customer will be required to support HP's remote problem resolution efforts. The Customer will: \nStart self-tests, install and run other diagnostic tools and programs \nInstall customer-installable firmware updates &amp; patches \nProvide all information necessary for HP to deliver timely and professional remote support and to enable HP to determine the level of support eligibility\nPerform other reasonable activities to help HP identify or resolve problems, as requested by HP The Customer is responsible for installing and maintaining the appropriate HP remote support solution, with a secure connection to HP, and to provide all necessary resources in accordance with the HP remote support solution release notes, in order to enable the delivery of the service and options. The Customer must also provide any hardware required to host the remote support solution. When an HP remote support solution is installed, the Customer must also maintain the contact details configured in the remote support solution that HP will use in responding to a device failure. Please contact a local HP representative for further details on requirements, specifications, and exclusions. For scheduled calls, the Customer shall promptly make the equipment available to HP for remedial activities at the agreed-upon time. </td></tr></table></td></tr></table><p></p><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td class="cnet_mainheader">Extended specifications</td></tr><tr><td class="cnet_rule"></td></tr></table><p></p><div class="cnet_textbold"> </div><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td class="cnet_tablelines"><table border="0" cellpadding="0" cellspacing="0" width="100%" title="requirements"><tr><td class="cnet_tableleft" width="20%">General Provisions</td><td class="cnet_tableright" width="80%">HP will acknowledge a service request by logging a case, communicating the case ID to the Customer, and confirming the Customers incident severity and time requirements for the commencement of remedial action. Note: For events received via HP electronic remote support solutions, HP is required to contact the Customer, determine the incident severity with the Customer, and arrange access to the system before the hardware call-to-repair time or hardware onsite response time period can start. Onsite hardware support response times and call-to-repair time commitments, as well as software support remote response times, may differ depending on incident severity. The Customer determines the incident severity level. Incident severity levels are defined as follows: \nSeverity 1Critical Down: for example, the production environment is down; a production system or production application is down/at severe risk; data corruption/loss or risk has occurred; business is severely affected; there are safety issues Severity 2Critically Degraded: for example, the production environment is severely impaired; a production system or production application has been interrupted/compromised; there is risk of reoccurrence; there is significant impact on business Severity 3Normal: for example, a non-production system (e.g., test system) is down or degraded; a production system or production application has been degraded with a workaround in place; non-critical functionality has been lost; there is limited impact on the business \nSeverity 4Low: there is no business or user impact Additional HP Proactive Care Service credits purchased through the technical skills on demand \nThe following applies to Proactive Care Service credits: \nAdditional HP Proactive Care Service credits can be purchased only if the Customer has already purchased HP Proactive Care Services and has an active contract. Additional HP Proactive Care Service credits must be utilized and redeemed against specific service activities within the scope of one Proactive Care environment under the direct day-to-day management of one IT manager, in one country. \nAdditional HP Proactive Care Service credits are not transferable. Proactive Care Service credits must be used on an annual basis. Any unused credits will expire at the end of each 12-month period. Any unused credits cannot be rolled over to another calendar year or refunded If the Customer cancels a Proactive Care contract before it has reached its termination date, then HP will refund the Customer a pro-rata amount for the unused prepaid support less any applicable early termination fees. If the Customer has purchased additional HP Proactive Care Service credits, then HP will refund the Customer a pro-rata amount for the unused prepaid support based on the unused additional HP Proactive Care Service credits, less any applicable early termination fees. Conversely, HP will invoice the Customer on a pro-rata basis for any credits used but not paid for at the time of contract cancellation. </td></tr><tr><td class="cnet_tableleft" width="20%">Customer Responsibilities</td><td class="cnet_tableright" width="80%">The Customer is responsible for installing, in a timely manner, critical customer-installable firmware updates, as well as Customer Self Repair parts and replacement products delivered to the Customer. The Customer agrees to pay additional charges if the Customer requests that HP install customer-installable firmware updates as described in the Service prerequisites section. Any additional charges to the Customer will be on a time and materials basis, unless otherwise previously agreed to in writing by HP and the Customer. The Customer will: \nTake responsibility for registering to use the HP or third-party vendors electronic facility in order to access knowledge databases, to obtain product information. HP will provide registration information to the Customer, as required; additionally, for certain products, the Customer may be required to accept vendor-specific terms for use of the electronic facility. Retain, and provide to HP upon request, all original software licenses, license agreements, license keys, and subscription service registration information, as applicable for this service\nTake responsibility for acting upon any hardcopy or email notification the Customer may receive in order to download the software update or to request the new software update on media, where this option is available Use all software products in accordance with current HP software licensing terms corresponding to the Customer's prerequisite underlying software license, or in accordance with the current licensing terms of the third-party software manufacturer, if applicable, including any additional software licensing terms that may accompany such software updates provided under this service With the defective media retention service feature option, it is the Customer's responsibility to: \nRetain physical control of Disk or SSD/Flash Drives at all times during support delivery by HP; HP is not responsible for data contained on Disk or SSD/Flash Drives \nEnsure that any Customer sensitive data on the retained Disk or SSD/Flash Drive is destroyed or remains secure Have an authorized representative present to retain defective Disk or SSD/Flash Drives, accept replacement Disk or SSD/Flash Drives, provide HP with identification information for each Disk or SSD/Flash Drive retained hereunder, and, upon HP request, execute a document provided by HP acknowledging the retention of the Disk or SSD/Flash Drives Destroy the retained Disk or SSD/Flash Drive and/or ensure that the Disk or SSD/Flash Drive is not put into use again \nDispose of all retained Disk or SSD/Flash Drives in compliance with applicable environmental laws and regulations For Disk or SSD/Flash Drives supplied by HP to the Customer as loaner, rental or lease products the Customer will promptly return the replacement Disk or SSD/Flash Drives at the expiration or termination of support with HP. The Customer will be solely responsible for removing all sensitive data before returning any such loaned, rented, or leased Disk or SSD/Flash Drive to HP and HP shall not be responsible for maintaining the confidentiality or privacy of any sensitive data that remains on such Disk or SSD/Flash Drive. </td></tr></table></td></tr></table><br></div></span>\n        <div class="sort visibleFalse">\n          <label for="ctl11_ctl00_ddProductControl1" id="ctl11_ctl00_Label1">Product Documents:</label>\n          \n          <a class="visibleFalse" href="javascript:OpenDocument1();">\n            <img alt="" src="/assets/local//button_arrow.gif"></a>\n        </div>\n      </div>

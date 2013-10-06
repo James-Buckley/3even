@@ -2,6 +2,7 @@ select count(1) as model_cnt from load_model;
 select count(1) as carepack_cnt from load_carepack;
 select count(1) as cp from carepacks;
 select count(1) as dev from devices;
+select count(1) as dc from devices_carepacks ;  
 select count(1) as cat from carepack_categories;
 select length(raw1) from carepacks order by length(raw1) desc limit 10;
 select length(raw2) from carepacks order by length(raw2) desc limit 10;

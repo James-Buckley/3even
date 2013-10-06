@@ -15,6 +15,7 @@ class CarepackItems(Item):
     cptitle2text= Field()   # 1.4
     cpdescr_html= Field()   # 1.5
     cpspecs_html = Field()  # 1.8
+    cptext1 = Field() # not in req, hold misc text from short title 
     pass
 
 

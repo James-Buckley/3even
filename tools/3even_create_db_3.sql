@@ -26,7 +26,7 @@ CREATE TABLE `carepack_categories` (
   `pk` int(11) NOT NULL AUTO_INCREMENT,
   `RawCategory` varchar(45) NOT NULL,
   PRIMARY KEY (`pk`)
-) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -60,7 +60,7 @@ CREATE TABLE `carepacks` (
   KEY `fkCategory_idx` (`fkCategory`),
   KEY `carepacks_x1` (`SKU`),
   CONSTRAINT `fkCategory` FOREIGN KEY (`fkCategory`) REFERENCES `carepack_categories` (`pk`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB AUTO_INCREMENT=16383 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=17533 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -89,7 +89,7 @@ CREATE TABLE `devices` (
   `CatID` int(11) DEFAULT NULL,
   PRIMARY KEY (`pk`),
   KEY `devices_x1` (`prodID`,`pk`)
-) ENGINE=InnoDB AUTO_INCREMENT=6143 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=8701 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -117,7 +117,7 @@ CREATE TABLE `devices_carepacks` (
   KEY `fkCarepack_idx` (`fkCarepack`),
   CONSTRAINT `fkCarepack` FOREIGN KEY (`fkCarepack`) REFERENCES `carepacks` (`pk`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `fkDevice` FOREIGN KEY (`fkDevice`) REFERENCES `devices` (`pk`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB AUTO_INCREMENT=49151 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=54269 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -148,6 +148,7 @@ CREATE TABLE `load_carepack` (
   `loadTimestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `loadFlag` char(1) DEFAULT 'N',
   `srcurl` varchar(2048) DEFAULT NULL,
+  `cptext1` varchar(2056) DEFAULT 'NA',
   KEY `load_carepack_x1` (`cpsku`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -225,4 +226,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-10-04 18:33:43
+-- Dump completed on 2013-10-05 18:47:37

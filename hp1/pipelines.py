@@ -70,7 +70,7 @@ class MySQL1StorePipeline(object):
                 
   
 
-        self.conn = MySQLdb.connect(user='root', passwd='', db='hp1_test', host='localhost', charset="utf8", use_unicode=True)
+        self.conn = MySQLdb.connect(user='root', passwd='', db='hp1', host='localhost', charset="utf8", use_unicode=True)
         self.cursor = self.conn.cursor() 
         self.cursor.execute("""INSERT INTO xlog( logType, logMessage ) VALUES ( %s, %s ) """ ,("load", "Start batch load"));
         self.conn.commit()    
@@ -85,8 +85,8 @@ class MySQL1StorePipeline(object):
 # if care pack or model/device send data to load table
         if isinstance(item, CarepackItems):
             try:
-                self.cursor.execute("""INSERT INTO load_carepack(srcurl, cpsku, cpurl, cppriceamt, cpsubcattext, cptitletext , cptitle2text , cpdescr_html, cpspecs_html)
-                       VALUES (%s, %s, %s ,%s,  %s, %s, %s, %s, %s ) """ ,
+                self.cursor.execute("""INSERT INTO load_carepack(srcurl, cpsku, cpurl, cppriceamt, cpsubcattext, cptitletext , cptitle2text , cpdescr_html, cpspecs_html, cptext1)
+                       VALUES (%s, %s, %s ,%s,  %s, %s, %s, %s, %s ,%s ) """ ,
                       ( item["srcurl"].encode("utf-8"),
                         item['cpsku'].encode('utf-8'), 
                         item['cpurl'].encode('utf-8'),
@@ -95,12 +95,11 @@ class MySQL1StorePipeline(object):
                         item['cptitletext'].encode('utf-8'),
                         item['cptitle2text'].encode('utf-8'),
                         item['cpdescr_html'].encode('utf-8','ignore'),
-                        item['cpspecs_html'].encode('utf-8','ignore')
-                       
+                        item['cpspecs_html'].encode('utf-8','ignore'),
+                        item['cptext1'].encode('utf-8','ignore')                     
                           ))
                 self.conn.commit()
-
-        
+       # note: ignore means if encounter non asci char just drop remove, ok for this site, not for german language 
             except MySQLdb.Error, e:
 
                 msg = "Error %d: %s" % (e.args[0], e.args[1])
@@ -161,8 +160,12 @@ class MySQL1StorePipeline(object):
 
             self.cursor.execute("""insert into devices (prodID, CatID, SubCatID, deviceName, Link) select distinct mprodid, mcatid, msubcatid, mdescr, murl from load_model where loadFlag = %s  and mprodid  not in (select prodID from devices)""", ('N',) ) 
 
+# Our own little y2k bug, not work if carepack exced 99999999, can replace this
+#simple append logic with database stored procedure but did nto want add anything
+# to database OR use actual SKU id to test, but using keys  Much Faster
 
-            self.cursor.execute("""insert into  devices_carepacks (fkDevice, fkCarepack) select distinct D.pk, C.pk from load_model L join carepacks  C  on (L.mcpsku = C.SKU) join devices D on (L.mprodid = D.prodID) where loadFlag = %s""",('N',))
+
+            self.cursor.execute("""insert into  devices_carepacks (fkDevice, fkCarepack) select distinct D.pk, C.pk from load_model L join carepacks  C  on (L.mcpsku = C.SKU) join devices D on (L.mprodid = D.prodID) where loadFlag = %s and D.pk * 1000000 + C.pk not in (select fkDevice* 1000000 + fkCarepack from devices_carepacks)""",('N',))
 
             self.conn.commit()
         
